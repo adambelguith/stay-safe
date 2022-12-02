@@ -1,0 +1,27 @@
+.badge {
+    display: inline-block;
+    padding: 0.10em 0.20em;
+    font-size: 1rem;
+    font-weight: 550;
+    line-height: 1;
+    color: #000;
+
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+
+    border-radius: 0.25rem;
+    animation: animate 0.9s ease-out infinite alternate;
+}
+
+@keyframes animate {
+    0%{transform: scale(0.7);}
+    100%{transform: scale(1);}
+}
+
+.badg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: #fff;
+
+}
+

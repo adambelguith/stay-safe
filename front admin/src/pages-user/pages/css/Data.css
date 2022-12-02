@@ -1,0 +1,98 @@
+.download-container {
+    padding : 0 10% ;
+    margin : 40px auto 80px ;
+}
+
+.download-container .title {
+    font-size: 43px;
+    text-align: center;
+    color :#000 ;
+    margin-bottom: 20px;
+}
+
+.download-container .buttons{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 35px;
+}
+
+.download-container .buttons button{
+    text-decoration : none;
+    width : 200px;
+    line-height: 35px;
+    display: inline-block;
+    font-weight: medium ;
+    color: #fff;
+    vertical-align: middle;
+    user-select:none;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 1;   
+}
+
+.download-container .buttons .classification{
+    background-color: #3b53a1;
+    margin-right: 15px;  
+}
+
+.download-container .buttons .sorting{
+    background-color: #cbe72c;
+    margin-right: 15px;  
+}
+
+.download-container .produits {
+    flex-direction: row;
+    display: flex;  
+    width: 100%;  
+}
+
+.download-container .produit {
+    width :230px;
+    border-collapse:  collapse;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 40px;
+    margin-right: 30px; 
+    border:1px solid #000;
+}
+
+.download-container .name {
+    color: #000;
+    font-size: 18px;
+    align-items: center;
+    vertical-align: top;
+    opacity: 1;
+    text-align: center;
+}
+
+.download-container pre {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color : rgb(68, 63, 63);
+    opacity: 1;
+    margin:15px;
+
+}
+
+.download-container .btn {
+    text-align: right;
+}
+
+.download-container .btn button {
+    text-decoration : none;
+    width : 110px;
+    line-height: 35px;
+    display: inline-block;
+    background-color: #19b34c;
+    font-weight: medium ;
+    color: #fff;
+    vertical-align: middle;
+    user-select:none;
+    border:1px solid transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 1;     
+}

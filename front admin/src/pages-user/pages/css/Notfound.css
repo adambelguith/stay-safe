@@ -1,0 +1,41 @@
+.notfound-form-container {
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#001c2b;
+  }
+
+  .notfound-cercle{
+    border: 15px solid #001c2b;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    color: #198ec9 ;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 100px;
+  }
+
+ .notfound-errur{
+    margin-top: 40px;
+    width: 400px;
+    height: 60px;
+    justify-content: center;
+    display:flex;
+ } 
+
+ .notfound-button{
+    border-radius: 15px;
+    background: #0384c6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+ }
+
+ .notfound-button:hover{
+     background-color: #005079;
+ }
